@@ -1,0 +1,32 @@
+1. Id
+2. name
+3. tag name
+4. class
+5. css selectotrs
+6. text
+7. partial text
+8. xPath
+
+Priority-wise usage:
+Id > XPath = cssSelectors > name > className.
+linkText > partialLinkText (for links).
+
+Different customized xpath:
+1. //a[contains(text(),'About')] --> Using contains() --> Recommended to use. 
+2. //a[text()='About'] --> Using text().
+3. //a[@id='ui-to-top'] --> Using any locator.
+4. //a[contains(@id,'ui-to-top')] --> Using contains method and id.
+5. //input[starts-with(@id,'test_')] --> Using starts-with method.
+6. //input[ends-with(@id,'_test_t')] --> Using ends-with method.
+
+Advantages of customized xpath:
+1. Very fast
+2. Syntax is very simple
+3. No performance issues
+4. Unique
+5. Powerful in handle dynamic id
+
+Disadvantages of absolute(hierarchy based) xpath:
+1. Performance issue
+2. Not reliable
+3. Can be changed at anytime in future

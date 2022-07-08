@@ -1,0 +1,26 @@
+Two types og RegEx in Cucumber:
+1. Cucumber Expressions
+2. Regular Expressions (2017)
+
+Rules:
+1. Step def file will be generating cucumber exp by default.
+2. We can use regular exp also in Step def file.
+3. We can mix both regular expand cucumber exp in Step def file.
+4. We can not mix both expressions in a step def method.
+
+{String} {int} {float} -- cucumber expression
+
+Regular Expressions:
+
+Quantifiers in Reg Exp: + * ? {n} --> How many times a character needs to be occurred
+
+([0-9]) --> capture group --> 0 to 9 digits appear
+([0-9]+) --> 0 to 9 digits appear (once or more)
+([0-9]{4}) --> 0000, 9999, 1234, 3456, 1212, 8888
+([0-9]*) --> zero or more
+([0-9]?) --> zero or once
+
+Short hand characters:
+\d --> numeric digits
+(\d+)
+([a-zA-Z0-9]+)

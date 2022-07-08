@@ -1,0 +1,27 @@
+Agile methodology
+1. Sprint Planning Meeting:
+In this meeting BA explain all the user stories to the team.
+2. Team Planning with Team Lead:
+In this Team Lead assign the tasks or User stories to us.
+3. Daily Scrum:
+in which Team tells about the work did it yesterday what they will be working on today and the blockers they face if any.
+4. Retrospective meeting:
+In this meet we discuss about what went well and what did not go so well in the previous sprint and what can be the improvement for the next sprint.
+
+
+
+
+
+Inpulse:
+PA claims
+first we initiate the PA claim.
+To generate the PA claim we have to fill two mandatory details like occurence details and policy details.
+After this we create PA claim
+After this we r assingning the reserve 
+after having loss details we make payments and generating the bills.
+Pages created during Framework designing:
+1. Create claim 
+2. Initiate claim
+3. Reserve
+4. Payments
+5. Bills

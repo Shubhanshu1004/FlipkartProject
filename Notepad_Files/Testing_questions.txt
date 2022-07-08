@@ -1,0 +1,90 @@
+Difference between Quality Control and Quality Assurance:
+Quality Control: It is a product-oriented approach of running a program to determine if it has any defects as well as making sure that the software meets all of the requirements put forth by the stakeholders.
+Quality Assurance: It is a process-oriented approach that focuses on making sure that the methods, techniques and processes used to create quality deliverables are applied correctly.
+
+
+
+
+Differnet types of Software Testing:
+1. White Box Testing:
+a. Done by developers.
+b. Testing of each and every line of code logically.
+c. Should have the knowledge of internal design of the code and programming.
+
+2. Black Box Testing:
+a. done by testers.
+b. Verifying the functionality of the application against requirement specifications.
+c. No need to have the knowledge of internal design of the code and programming. 
+
+3. Grey Box Testing: 
+Combination of both black box and white box testing.
+
+
+
+
+Different levels of testing:
+1. Unit testing: 
+a. a way of testing the smallest piece of code referred to as a unit that can be logically isolated in a system.
+b. mainly focused on the functional correctness of the standalone module.
+
+2. Integration testing:
+a. individual units are combined together and tested to verify if they are working as they intend to when integrated.
+b. main aim is to test the interface between the modules.
+
+3. System testing:
+a. all the components of the software are tested as a whole in order to ensure that the overall product meets the requirements specified.
+
+4. User Acceptance Testing:
+a. it determines whether or not the software is ready to be released.
+
+
+
+
+Difference between verification and validation:
+1. Verification:
+a. a static analysis technique.
+b. testing is done without executing the code.
+c. Examples- reviews, inspection and walkthrough.
+
+2. Validation:
+a. a dynamic analysis technique.
+b. testing is done by executing the code.
+c. Examples- functional and non-functional testing techniques.
+
+
+
+
+Documents associated with software testing are:
+1. Test Plan
+2. Test Scenario
+3. Test Case
+4. Traceability Matrix
+
+
+
+
+Software Testing Life Cycle(STLC):
+1. Requirement Analysis:
+a. QA team understands the requirement in terms of what we will be testing
+
+2. Test Planning:
+a. test strategy is defined.
+b. objective and the scope of the project is determined
+
+3. Test Case Development:
+a. detailed test cases are defined and developed
+b. testing team also prepares the test data for testing
+
+4. Test Environment Setup:
+a. setup of software and hardware for the testing team to execute test cases.
+
+5. Test Execution:
+a. process of executing the code and comparing the expected and actual results.
+
+6. Test Cycle Closure:
+a. testing team member meeting and evaluating cycle completion.
+
+
+
+
+     

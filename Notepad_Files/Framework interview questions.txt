@@ -1,0 +1,33 @@
+Page Object Model:
+1. It is also known as POM.
+2. It is a design pattern or approach to create a object repository for storing all the web elements.
+3. It is useful in reducing code duplication and improves test case maintenance.
+4. In POM, consider each web page of an application as a class file. Each class file will contain only corresponding web page elements. Using these elements, 
+   testers can perform operations on the website under test.
+
+Advantages of Page Object Model:
+1. Helps with easy maintenance: If a drop-down menu is changed to a radio button, POM helps to identify the page to be modified and this identification is necessary 
+   to make the required changes in the right files.
+2. Helps with reusing code: Byusing POM, one can write the test code for one page and reuse it for another test code.
+3. Readability and reliability of scripts: 
+
+
+Data Driven Framework:
+It is an automation testing framework in which we read data from data files and stored into variables in test scripts. In this framewok we keep test cases seperate from the test data. 
+
+I've worked on test data driven framework in selenium. In this we have various components 
+1. test data:
+To maintain our test data we used to have excel sheets and in order to deal with excel sheets we used Apache POI. 
+We were also using Properties file to maintain our test data. 
+We read data from these data files and stored into variables in test scripts using data driven framework. 
+2. reports:
+To generate proper reports we used Extent report whose dependency we added in pom.xml file.
+3. utilities:
+In the utilities we have all the basic utility methods used throughout the project.
+This is independent of project that means we can use this utility in another project also.
+4. test scripts:
+To prepare test scripts we used Unit testing framework TestNG and the design pattern was of Page Object Model.
+In POM we r creating different java classes for every html page which contain only corresponding web elements  
+5. maven: It is a build automation tool in which we added the dependency
+6. Runner: we used jenkins for that
+7. Version control System: GIT Hub

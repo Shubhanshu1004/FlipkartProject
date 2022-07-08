@@ -1,0 +1,63 @@
+Class Eye{
+}
+Class Animal extends Eye{
+}
+Class Dog extends Animal{
+}
+
+Ans: A obj = new A();
+obj.show();
+A.show();
+
+Output: John
+35
+101 Main St
+Null
+0
+101 Main St
+
+class Solution {
+public int solution(int X, int Y, int D){
+Iint count =0;
+for(int i=0;X!=Y||X!>Y;)
+X=X+D;
+count++;
+}
+}
+
+
+public int findStolenCarrotSize(int N, int M, int[] carrots){
+Int shortestCarrot= N;
+Int longestcarrot = M;
+Int num;
+for(int i=0;i<carrots.length;i++){
+for(int j=i+1;j<carrots.length;j++){
+if(carrots[i]>carrots[j]){
+Int  temp = carrots[i];
+Carrots[i] = carrots[j];
+Carrots[j] = temp;
+}
+}
+}
+for(int i=0;i<carrots.length;i++){ [2,3,4,6,7]
+if((carrots[i+1]-carrots[i])>1){
+Num = (carrots[i]+carrots[i+1])/2
+}
+}
+}
+
+
+Int[] ar = {[1,2,3,4,7,6,6};
+for(int i=0;i<ar.length;i++){
+for(int j=i+1;j<ar.length;j++){
+if(ar[i]==ar[j]){
+System.out.println(i);
+}
+}
+}
+
+}
+
+
+
+

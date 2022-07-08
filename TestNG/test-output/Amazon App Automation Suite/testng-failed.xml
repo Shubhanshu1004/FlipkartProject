@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon App Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Amazon App Test(failed)">
+    <parameter name="password" value="anshu@1004"/>
+    <parameter name="emailid" value="anshu.dubey4@gmail.com"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+    <classes>
+      <class name="com.parameters.ParameterTest">
+        <methods>
+          <include name="facebookLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameters.ParameterTest -->
+    </classes>
+  </test> <!-- Amazon App Test(failed) -->
+</suite> <!-- Failed suite [Amazon App Automation Suite] -->

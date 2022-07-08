@@ -1,0 +1,27 @@
+There is a website - https://www.search.com
+There is a search box whose ID is - seacrhBox
+There is a search button whose ID is - searchBtn
+
+You need to enter some text in the search box and then click Search button.
+Once you click on Search button you will get the list of result
+The result is wrapped in a class - resultClass
+You need to iterate through the results and verify that whatever you have entered in the search box is present in the links or not
+
+
+class Test{
+System.setProperty("webdriver.chrome.driver","path of the chromedriver.exe");
+WebDriver driver = new ChromeDriver();
+driver.get("https://www.search.com");
+String s = "test";
+driver.findElement(By.xpath("//input[@ID='seacrhBox']")).sendKeys(s);
+driver.findElement(By.xpath("//button[@ID='searchBtn'])).click();
+
+List<WebElement> list = (WebElement) driver.findElements(By.xpath("listxpath"));
+
+for(WebElement e : list){
+String s1 = list.getText();
+assertThat(s.equals(s1));
+}
+}
+
+

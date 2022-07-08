@@ -1,0 +1,35 @@
+Shared:
+
+1. Requirement Matrix - for each requirement there should be atleast 1test case
+2. Test case report - S.No, Name of test case, Status:pass,fail,blocked,  Comment
+3. Defect report - Status: Open, Fixed, CLosed, Re-Open
+4. Report: Overall report, sprint report, us test cases defects
+
+PA claim: Personal Auto
+Stone River Insurnace 
+
+initiate claim page
+basic details for initate claim: (PATEST1234) policy number(mand), occurrence details(mand), notification details: details of notifier, Initiate button - PATEST7798
+Loss details: loss of vehicles, loss type: damage, stolen, damage details, Create button. attachments.
+
+Reserve open only after claim has been created. 
+Reserve 10000$- 1000$
+Reserve details: Reserve Type: Collission, Loss Type: Collission, Reserve Amount:1000$,Reason: ,open reserve button, Status:Open, Closed Paid:100$
+
+Initiate Claim
+Search Claim
+
+Claim Details page:
+Loss:
+Reserve:
+Suborgation
+Payments: Pay
+Bills:
+
+Sprint Planning meeting:
+
+Team Planning meeting:
+
+Environment names: QAWJD4, QAWJS2
+
+  

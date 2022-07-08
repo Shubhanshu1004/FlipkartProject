@@ -1,0 +1,11 @@
+Software Testing: It is a process to evaluate the functionality of a software application with an intent to find whether the developed software met the specified requirement or not and to identify the defects or bugs to ensure that the product is defect-free in order to produce a quality product.
+
+Significance of Software Testing:
+1. Cost-effectiveness: if the bugs can be identified in the early stages of development then it costs much less to fix them when comparing the later stages of development.
+2. Customer satisfaction: improves the user experience of an application and gives the satisfaction to the customer.
+3. Security: This is the most sensitive and vulnerable part of testing. Hackers gain unauthorized access to data and steal user information if the product is not secured and vulnerable. Testing helps in removing the vulnerability in the product.
+4. Product Quality: helps in strengthening the market reputation of a company by delivering a quality product.
+
+Types of Software Testing:
+1. Manual Testing: 
+2. Automation Testing: A software testing technique done through special automated testing tools 

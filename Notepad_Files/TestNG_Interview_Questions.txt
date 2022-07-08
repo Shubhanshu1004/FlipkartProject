@@ -1,0 +1,21 @@
+Q. What is TestNG
+Ans. TestNG is a testing framework in which NG stands for 'New Generation'. Its purpose is to design test cases in a systematic way. It is a very powerful tool to write test cases and to generate the HTML reports.
+It has different annotations associated with a method. It also has various features like priority, dependency, groups, parameters, dataProvider etc.
+
+Q. What are the advantages of TestNG?
+Ans.
+
+Q. What are the different annotations in TestNG?
+Ans. The different annotations in TestNG are
+     1. @BeforeSuite
+     2. @BeforeTest
+     3. @BeforeClass
+     4. @BeforeMethod
+     5. @Test
+     6. @AfterMethod
+     7. @AfterClass
+     8. @AfterTest
+     9. @AfterSuite
+The annotations starting with @Before are call pre-conditions annotations
+@
+The annotations starting with @After are call post-conditions annotations

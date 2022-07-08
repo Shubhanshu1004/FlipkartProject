@@ -1,0 +1,58 @@
+TestNG --> unit testing framework(Testing New Generation framework)
+Also called TDD framework --> Test Driven Development  
+purpose --> 1. To design test cases in a systematic way
+            2. To generate HTML reports
+            3. Having different annotations
+            4. Give priorities/sequences to the test cases
+	    5. can define different dependencies
+	    6. Grouping
+	    7. Data provider --> To execute a particular test case again and again for different set of data 
+TestNG --> open source, free, available in JAR files
+Java unit testing framework
+TestNG and JUnit both are used only with java --> Both are java testing framework
+
+Priority:
+1. priority keyword is used to schedule the test cases.
+2. When there are multiple test cases, we want to execute test cases in order.
+
+Groups:
+1. TestNG groups allow us to perform groupings of different test methods using groups keyword.
+2. Grouping of test is required when we want to access test methods of different classes.
+3. We can also declare a group within a specified group.
+4. Ex- @Test(groups = "Title")
+
+Test Dependency:
+1. This is a feature in TestNG that allows a test method to depend on a single or a group of test methods.
+2. This will help in executing a set of tests to be executed before a test method.
+3. Ex- @Test(dependsOnMethods = "googleTitleTest")
+
+InvocationCount in TestNG:
+1. By using invocationCount we can execute a test multiple times.
+2. Invocation Count determines how many times test will execute.
+3. Ex- @Test(invocationCount = 10)
+
+timeOut in TestNg:
+1. The timeOut is a helper attribute in TestNG that can put an end to the execution of a test method 
+   if that method takes time beyond the timeOut duration.
+2. A timeOut time is set in milliseconds, after that the test method will be marked failed.
+
+enabled in TestNG:
+1. To decide whether we want to execute a particular test case or not.
+2. If the enabled=true, then test will execute and if enabled=false, then test will not execute.
+3. Ex- @Test(enabled = true)
+
+expectedExceptions Attribute:
+1. TestNG provides an option of tracing the exception handling of code.
+2. We can test whether a code throws a desired exception or not.
+3. The expectedExceptions parameter is used along with the @Test annotation.
+4. Ex- @Test(expectedExceptions = NumberFormatException.class)
+5. Ex- @Test(expectedExceptions = {IOException.class, NullPointerException.class})
+6. If the exception thrown by the test is not part of the user entered list of exceptions, the test will be marked as failed.
+
+IRetryAnalyzer in TestNG:
+1. IRetryAnalyzer is an interface in TestNG which provides a mechanism to re-run the failed test cases.
+2. We have to implement this interface in our class and it has a method retry(ITestResult result) which we have to override to provide the re-run facility to the       failed test cases.
+3. Ex- @Test(retryAnalyzer = com.Analyzer.RetryAnalyzer.class)
+
+IAnnotationTransformer in TestNG:
+ 

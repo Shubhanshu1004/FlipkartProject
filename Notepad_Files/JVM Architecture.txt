@@ -1,0 +1,33 @@
+Virtual Machine
+Types of Virtual Machines
+  1. Hardware based VM
+  2. Application based VM
+Basic Architecture of JVM
+
+Class Loader Subsystem
+  1. Loading
+  2. Linking
+  3. Initialization
+Types of Class Loaders
+  1. Bootstrap Class Loader
+  2. Extension Class Loader
+  3. Application Class Loader
+
+How Class Loader works?
+What is the need of Customized Class Loader?
+Psuedo code for Customized Class Loader
+
+Various Memory Areas of JVM
+  1. Method Area
+  2. Heap Area
+  3. Stack Area
+  4. PC Registers
+  5. Native Method Stacks
+
+Execution Engine
+  1. Interpreter
+  2. JIT Compilers
+
+Java Native Interface(JNI)
+Complete Architecture Diagram of JVM
+Class File Structure

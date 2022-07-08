@@ -1,0 +1,62 @@
+Q. Why is Java platform independent?
+Ans. Platfrom independent means the java compiled code, i.e. byte code, can run on all operating systems.
+     Java is a write once, run anywhere language. 
+     In java, programs are compiled into byte code and to execute this byte code machine needs the JVM and JVM is different for different operating systems.
+
+Q. What is a class?
+Ans. A class can be defined as a blueprint of a java program.
+     It is a logical entity which is a collection of objects and its behaviours.
+
+Q. What is an object?
+Ans. An object can be defined as an instance of a class that has state and behaviour. Objects are the basic building blocks of a java class.
+  
+Q. What are the features of OOPs?
+Ans. OOPs is Object Oriented Programming.
+     Object means a real world entity such as vehicle, animal etc. and OOPs is a paradigm to design  a program using the object.
+     The main aim of OOPs is to implement real world-entities.  
+     Important features of OOPs:
+     1. Abstraction: Hiding internal details and showing the functionality. Ex- phone call in which we don't know the internal processing.
+        In java, we use abstract class and interface to achieve abstraction.
+     2. Encapsulation: Binding data memebers(variables) and its behaviours(methods) in a single entity which is a class.
+        Ex- a java class is an example of encapsulation in which through data hiding and abstraction we can achieve encapsulation. We can achieve encapsulation using           various access specifiers like public, private, protected, default.
+     3. Polymorphism: It is a feature through which an entity can acquire various forms. Ex- arithmetic + operator can be used to add the numbers as well as can be             used as string concatenation operator. We can achieve polymorphism using method overloading and method overriding.
+     4. Inheritance: This is a feature through which a child class can inherit the properties of a parent class. The importance of this concept is code reusability             i.e. we don't have to write same code over and over again. We can achieve inheritance feature through extends keyword.
+
+Q. What are the types of polymorphism?    
+Ans. The two types of polymorphism are:
+     1. Static polymorphism: In static polymorphism, a call to an overridden method is resolved at compile-time based on object reference. It is also called early         binding.
+     2. Dynamic polymorphism: In dynamic polymorphism, a call to an overridden method is resolved at run-time based on run-time object. It is also called late binding.   
+Q. What is the difference between method overloading and method overriding?
+Ans. Method overloading is used to increase the readability of the code while method overriding is used to give a specific implementation of a parent class method to the child class.
+
+Q. Is it possible to override a static method in java?
+Ans. No, it is not possible to override a static method in java.
+Firstly, static method is a class level entity and does not belong to object. In overriding objects decide which method is to be called.
+Secondly, method overriding occurs at run-time while static method is looked upon statically at compile-time.
+
+Q. Can we overload main method in java?
+Ans. Yes, we can overload main methodbut JVM will always call the main method with parameter String[] args. If we want to call the other overloaded method then we have to call that method explicitly.
+
+Q. Can we override private method?
+Ans. No we cannot override private method because to override a method that method should be avilable for the child classes but the private method can be accessed only within the same class in which it is declared.
+
+Q. What is the base class for all the java classes?
+Ans. java.lang.Object is the base class for all the java classes.
+
+Q. List down the methods present in java.lang.Object class.
+Ans. 1. hashCode()- It returns the hash value of an object.
+2. equals()- It compares the object references.
+3. wait()- It causes current thread to wait until notify or notifyAll method is not called.
+4. notify()- Wakes upsingle thread which is waiting for lock.
+5. notifyAll()- Wakes up all threads which are waiting for lock.
+6. toString()- Provides String representation of the object.
+7. clone()- This method is used to clone the object.
+8. finalize()- This method is called when object is being garbage collected.
+
+Q. What is the difference between hashMap and hashSet?
+Ans.
+
+Q. What is abstract class? Why do we need abstract class? Is it possible to have zero abstract methods in class but still can declare a class as abstract? 
+Ans. An abstract class is the class which is declared abstract and it can have both abstract and concrete methods. An abstract class cannot be instantiated. It can be extended to provide the implementation of abstract methods and to use or override concrete methods.
+
+      

@@ -1,0 +1,39 @@
+Parameters
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon App Automation Suite">
+  <test name="Amazon App Test">
+     
+      <parameter name="url" value="https://www.facebook.com/"/>
+      <parameter name="emailid" value="anshu.dubey4@gmail.com"/>
+      <parameter name="password" value="anshu@1004"/>
+     
+      <classes>
+      <class name="com.parameters.ParameterTest"/>
+      </classes>
+  
+  </test> <!-- Test --> 
+   
+</suite> <!-- Suite -->
+
+
+
+
+Listeners
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Retry Failed Test Suite">
+
+	<listeners>
+		<listener class-name = "com.Analyzer.MyTransformer"/>
+	</listeners>
+
+	<test name="Retry Multiple Failed Test">
+  
+      <classes>
+      <class name="com.myTests.myTest"/>
+      </classes>
+  
+  </test> <!-- Test --> 
+   
+</suite> <!-- Suite -->

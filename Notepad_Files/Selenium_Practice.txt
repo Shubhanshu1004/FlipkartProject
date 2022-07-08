@@ -1,0 +1,83 @@
+1. To take Screenshot-->
+
+System.setProperty("webDriver.chrome.driver", "path of the driver");
+
+WebDriver driver = new ChromeDriver();
+driver.get("URL");
+
+driver.manage().windows().maximize();
+driver.manage().deleteAllCookies();
+
+File image = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+Files.copy(image, new File(expected location));
+
+2. To handle Alert popup-->
+
+System.setProperty("WebDriver.chrome.driver", "path of the driver");
+
+WebDriver driver = new ChromeDriver();
+driver.get("URL");
+
+driver.manage().windows().maximize();
+driver.manage().deleteAllCookies();
+
+driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+
+Alert alert = driver.switchTo().alert();
+
+alert.accept();
+alert.accept();
+alert.sendKeys("Shubhanshu Dubey");
+
+String alertText = alert.getText();
+
+3. To handle drop box-->
+
+System.setProperty("WebDriver.chrome.driver", "path of the driver");
+
+WebDriver driver = new ChromeDriver();
+driver.get("URL");
+
+driver.manage().windows().maximize();
+driver.manage().deleteAllCookies();
+
+driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+
+Select select = new Select(driver.findElement(By.xpath("//tagName[]")));
+
+select.selectByVisibleText("Anshu");
+select.selectByIndex(started from 0);
+select.selectByValue("");
+
+4. To handle mouse movement-->
+
+System.setProperty("WebDriver.chrome.driver", "path");
+
+WebDriver driver = new ChromeDriver();
+driver.get("URL");
+
+driver.manage().windows().maximize();
+driver.manage().deleteAllCookies();
+
+driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+
+Actions action = new Actions(driver);
+
+action.moveToElement(driver.findElement(By.xpath(""))).build().perform();
+
+5. To handle Drag & Drop-->
+
+System.setProperty("webDriver.chrome.driver", "path");
+
+WebDriver driver = new ChromeDriver();
+driver.get("URL");
+
+driver.manage().windows().maximize();
+driver.manage().deleteAllCookies();
+
+driver.manage().timeouts().padeLoadTimeout(20, TimeUnit.SECONDS);
+
+Actions action = new Actions(driver);
+action.clickAndHold(driver.findElement(By.xpath(""))).moveToElement(driver.findElement(By.xpath(""))).release().build().perform();
+

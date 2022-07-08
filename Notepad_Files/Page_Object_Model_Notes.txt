@@ -1,0 +1,16 @@
+Page Object Model:
+1. It is also known as POM.
+2. It is a design pattern or approach to create a object repository for storing all the web elements.
+3. It is useful in reducing code duplication and improves test case maintenance.
+4. In POM, consider each web page of an application as a class file. Each class file will contain only corresponding web page elements. Using these elements, 
+   testers can perform operations on the website under test.
+
+Advantages of Page Object Model:
+1. Helps with easy maintenance: If a drop-down menu is changed to a radio button, POM helps to identify the page to be modified and this identification is necessary 
+   to make the required changes in the right files.
+2. Helps with reusing code: Byusing POM, one can write the test code for one page and reuse it for another test code.
+3. Readability and reliability of scripts: 
+
+
+Data Driven Framework:
+It is an automation testing framework in which we read data from data files and stored into variables in test scripts. In this framewok we keep test cases seperate from the test data. 
